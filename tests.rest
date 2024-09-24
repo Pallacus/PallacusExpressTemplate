@@ -9,7 +9,7 @@ GET {{host}}/a
 GET {{host}}/b
 
 ### Test route C
-GET {{host}}/c
+GET {{host}}/api/c
 
 ### Test route D
-GET {{host}}/d
+GET {{host}}/api/d
