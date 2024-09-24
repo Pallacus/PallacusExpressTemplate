@@ -3,7 +3,20 @@
 
 
 ### Test route A
+POST {{host}}/a
+
+###
 GET {{host}}/a
+
+###
+PUT {{host}}/a
+
+###
+PATCH {{host}}/a
+
+###
+DELETE {{host}}/a
+
 
 ### Test route B
 GET {{host}}/b
