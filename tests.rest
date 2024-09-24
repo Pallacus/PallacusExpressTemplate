@@ -1,0 +1,15 @@
+@port = 3000
+@host = http://localhost:{{port}}
+
+
+### Test route A
+GET {{host}}/a
+
+### Test route B
+GET {{host}}/b
+
+### Test route C
+GET {{host}}/c
+
+### Test route D
+GET {{host}}/d
