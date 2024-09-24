@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const server = http.createServer(app);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1138;
 server.listen(port);
 
 server.on('listening', () => {
