@@ -4,9 +4,16 @@
 
 ### Test route A
 POST {{host}}/a
+Content-Type: application/json
+
+{
+    "name": "Sara",
+    "surname": "Smith",
+    "age": 27
+}
 
 ###
-GET {{host}}/a
+GET {{host}}/a?page=2&limit=77
 
 ###
 PUT {{host}}/a
@@ -15,7 +22,7 @@ PUT {{host}}/a
 PATCH {{host}}/a
 
 ###
-DELETE {{host}}/a
+DELETE {{host}}/a/456
 
 
 ### Test route B

@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-// Resposta de prova
+// Dumb response
 router.get('/', (req, res) => {
     res.end(`Route B`);
 });
